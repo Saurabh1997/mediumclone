@@ -1,0 +1,4 @@
+name = "cloudworker"
+compatibility_date = "2023-12-01"
+
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiYjlhMDRmYjctNmI2NC00MTBmLWEwNDEtZDk2ZjIzMDc1YTgzIiwidGVuYW50X2lkIjoiZGRjYTI2ZGUwMmI4NGFjNzMwYzU1MTQwZTQwNWVmN2Q5NTZkMjQxYmUwYmNmZWE0ZDcwYTAwNDcxZDE4MWVkYiIsImludGVybmFsX3NlY3JldCI6ImQzYTIxMDQ2LWNmZGEtNGVlNy1hOWQ1LThmYjRmNDczODdiMSJ9.k9AUQWDVIHLd2K6LdF6-zcySoRSP4xTSAv8CGxLjmaY"
