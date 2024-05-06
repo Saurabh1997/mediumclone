@@ -1,13 +1,13 @@
-import { PrismaClient } from "@prisma/client";
+import { PrismaClient } from "@prisma/client/edge";
 import { withAccelerate } from "@prisma/extension-accelerate";
 import { Hono } from "hono";
-
-const prisma = new PrismaClient().$extends(withAccelerate());
 
 const api = new Hono().basePath("/api/v1");
 
 console.log(" calling here ");
 api.post("/user/signup", (c) => {
+  const prisma = new PrismaClient().$extends(withAccelerate());
+  console.log(" prims a", prisma);
   return c.text("signup");
 });
 
